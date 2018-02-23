@@ -14,5 +14,5 @@ pip install -r requirements.txt
 ### Run
 
 ```
-python getrequest.py
+python getrequest.py -T [your-reviewer-auth-token]
 ```
