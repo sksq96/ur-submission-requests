@@ -38,4 +38,4 @@ python getrequest.py -T [your-reviewer-auth-token]
         2018-02-24 12:28   in 11 hours
 ```
 
-An example response above, with fields `created_at`, `updated_at`, `closed_at` respectively. 
+An example response above, with fields `created_at`, `updated_at`, `closing_in` respectively. 
