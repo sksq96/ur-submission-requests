@@ -10,7 +10,7 @@ import arrow
 import argparse
 
 BASE_URL = 'https://review-api.udacity.com/api/v1'
-SUBMISSION_REQUEST = f'{BASE_URL}/me/submission_requests.json'
+SUBMISSION_REQUEST = '{}/me/submission_requests.json'.format(BASE_URL)
 
 def getHeader(token): return {'Authorization': token, 'Content-Length': '0'}
 
